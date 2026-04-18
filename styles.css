@@ -1,0 +1,116 @@
+:root {
+  /* COLORS */
+  --color-primary: #2c9fb5;
+  --color-secondary: #EA6658;
+  --color-font: #142436;
+  --color-bg: #ffffff;
+  --color-accent: #EBEFF1;
+
+  /* FONT FAMILIES */
+  --font-title: "Playfair Display", serif;
+  --font-script: "Dancing Script", cursive;
+  --font-text: "Poppins", sans-serif;
+
+  /* FONT SIZES */
+  --fs-900: 5rem;
+  --fs-800: 4.0625rem;
+  --fs-700: 3.4375rem;
+  --fs-600: 3rem;
+  --fs-500: 2.5rem;
+  --fs-400: 2rem;
+  --fs-300: 1.5rem;
+  --fs-200: 1.25rem;
+  --fs-100: 1.125rem;
+  --fs-75: 1rem;
+  --fs-50: 0.875rem;
+
+  /* LINE HEIGHTS */
+  --lh-tight: 2;
+  --lh-snug: 2.18;
+  --lh-normal: 4.06;
+  --lh-large: 4.68
+  --lh-relaxed: 6.25;
+
+  /* FONT WEIGHTS */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* SPACING */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* RADIUS */
+  --radius-corner: 1.875rem;
+
+  /* LAYOUT */
+  --container-max: 82.5rem;
+  --container-md: 56.5rem;
+  --container-padding: 1.5rem;
+
+  --text-h1-font: var(--font-title);
+  --text-h1-size: var(--fs-900);
+  --text-h1-line-height: var(--lh-snug);
+  --text-h1-weight: var(--fw-medium);
+
+  --text-h2-font: var(--font-title);
+  --text-h2-size: var(--fs-700);
+  --text-h2-line-height: var(--lh-snug);
+  --text-h2-weight: var(--fw-regular);
+
+  --text-h2-script-font: var(--font-script);
+  --text-h2-script-size: var(--fs-800);
+  --text-h2-script-line-height: var(--lh-snug);
+  --text-h2-script-weight: var(--fw-regular);
+
+  --text-h3-font: var(--font-title);
+  --text-h3-size: var(--fs-600);
+  --text-h3-line-height: var(--lh-snug);
+  --text-h3-weight: var(--fw-regular);
+
+  --text-h4-font: var(--font-body);
+  --text-h4-size: var(--fs-200);
+  --text-h4-line-height: var(--lh-normal);
+  --text-h4-weight: var(--fw-semibold);
+
+  --text-body-font: var(--font-body);
+  --text-body-size: var(--fs-100);
+  --text-body-line-height: var(--lh-relaxed);
+  --text-body-weight: var(--fw-regular);
+
+  --text-small-font: var(--font-body);
+  --text-small-size: var(--fs-50);
+  --text-small-line-height: var(--lh-normal);
+  --text-small-weight: var(--fw-regular);
+}
+
+body {
+  font-family: var(--text-body-font);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line-height);
+  font-weight: var(--text-body-weight);
+  color: var(--color-font);
+  background-color: var(--color-bg);
+}
+
+h1 {
+  font-family: var(--text-h1-font);
+  font-size: var(--text-h1-size);
+  line-height: var(--text-h1-line-height);
+  font-weight: var(--text-h1-weight);
+}
+
+h2 {
+  font-family: var(--text-h2-font);
+  font-size: var(--text-h2-size);
+  line-height: var(--text-h2-line-height);
+  font-weight: var(--text-h2-weight);
+}
